@@ -1,5 +1,5 @@
 import requests
-response = requests.get("https://gitlab.com/api/v4/users/nanuchi/projects")
+response = requests.get("https://gitlab.com/api/v4/users/xxx/projects")
 my_projects = response.json()
 
 # print the whole objects list
